@@ -1,0 +1,36 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        /* based on colours from assets/scss/colors/white.scss */
+        --color-background: #FFFFFF;
+        --color-footer-mobile-1:  color-mix(in srgb, var(--color-background), #000 2%);
+        --color-footer-mobile-2: color-mix(in srgb, var(--color-background), #000 10%);
+        --color-background-code: color-mix(in srgb, var(--color-background), #000 2%);
+        --color-border: #666;
+        --color-meta: #666;
+        --color-meta-code: color-mix(in srgb, var(--color-meta), #fff 10%);
+        --color-link: rgba(212, 128, 170, 1);
+        --color-text: #383838
+        --color-accent-3: #8c8c8c;
+        --color-accent-2: #383838;
+        --color-accent-1: #2bbc8a;
+        --color-quote: #2bbc8a;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* based on colours from assets/scss/colors/dark.scss */
+        --color-background: #1d1f21;
+        --color-footer-mobile-1: color-mix(in srgb, var(--color-background), #fff 2%);
+        --color-footer-mobile-2: color-mix(in srgb, var(--color-background), #fff 10%);
+        --color-background-code: color-mix(in srgb, var(--color-background), #fff 2%);
+        --color-border: #666;
+        --color-meta: #666;
+        --color-meta-code: #666;
+        --color-link: rgba(212, 128, 170, 1);
+        --color-text: #c9cacc;
+        --color-accent-3: #cccccc;
+        --color-accent-2: #eeeeee;
+        --color-accent-1: #2bbc8a;
+        --color-quote: #ccffb6;
+    }
+}
