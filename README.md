@@ -1,0 +1,1 @@
+This is the source code for my tech blog hosted at [blog.putnam.computer](https://blog.putnam.computer/). It's generated with Hugo using the [Cactus theme](https://github.com/monkeyWzr/hugo-theme-cactus) and deployed using Vercel.
