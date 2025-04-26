@@ -1,7 +1,7 @@
 // Fonts
-$font-family-body: "JetBrains Mono", monospace;
-$font-family-mono: "JetBrains Mono", monospace;
-$font-family-tt: "Inconsolata", monospace;
+$font-family-body: "Monaco", Consolas, Lucida Console, monospace;
+$font-family-mono: "Monaco", Consolas, Lucida Console, monospace;
+$font-family-tt: "Monaco", Consolas, Lucida Console, monospace;
 $font-size: 14px;
 $line-height: 1.725;
 $page-width: 48rem;
@@ -10,4 +10,4 @@ $logo-width: 50px;
 $logo-height: 50px;
 $logo-grayout: true;
 // Colors
-$colors: "dark" // white dark light classic
+$colors: "dark"; // white dark light classic
