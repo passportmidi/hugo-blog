@@ -31,3 +31,4 @@ weight = 4
     mainSectionTitle = "Posts"
     description = "Hi there! This is where I post notes on tech projects I've been working on. You can also find me on [GitHub](https://github.com/passportmidi/) and [LinkedIn](https://www.linkedin.com/in/sydney-putnam/)."
     tagsOverview = false
+    rss = true
